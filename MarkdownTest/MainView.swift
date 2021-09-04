@@ -17,12 +17,11 @@ struct MainView: View {
 	var body: some View {
 		ScrollView {
 			Markdown(Document(fileMarkdown))
-				.frame(maxWidth: 600)
 				.background(Color.green)
 				.padding(20)
 		}
 		.onAppear {
-			let url = Bundle.main.url(forResource: "Help.bundle/TestMarkdown", withExtension: "md")!
+			let url = Bundle.main.url(forResource: "Assets.bundle/TestMarkdown", withExtension: "md")!
 			fileMarkdown = try! String(contentsOf: url)
 		}
 	}
