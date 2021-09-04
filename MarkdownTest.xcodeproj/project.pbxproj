@@ -38,7 +38,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3AB42C1C26E2E97D00DE5F28 /* Preview Content */ = {
+		3AB42C1D26E2EE7A00DE5F28 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -48,9 +48,9 @@
 		3AE1A8B923FF93FE00A5305D = {
 			isa = PBXGroup;
 			children = (
-				3AB42C1C26E2E97D00DE5F28 /* Preview Content */,
 				3AE1A8C423FF93FE00A5305D /* MarkdownTest */,
 				3AE1A8C323FF93FE00A5305D /* Products */,
+				3AB42C1D26E2EE7A00DE5F28 /* Preview Content */,
 				3A34DFC92564F86F004C320D /* Help.bundle */,
 			);
 			sourceTree = "<group>";
@@ -280,7 +280,6 @@
 		3AE1A8D723FF940000A5305D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MarkdownTest/MarkdownTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 0;
@@ -304,7 +303,6 @@
 		3AE1A8D823FF940000A5305D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MarkdownTest/MarkdownTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 0;
